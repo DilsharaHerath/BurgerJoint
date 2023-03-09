@@ -1,11 +1,14 @@
 import React from 'react'
-import TopicBox from '../Components/TopicBox'
+import Header from '../Components/Header'
+import Hero1 from '../Components/hero1'
+import Section1 from '../Components/section1'
 
 export default function Home() {
   return (
     <div>
-        <h1>This is the home page</h1>
-        <TopicBox></TopicBox>
+        <Header/>
+        <Hero1/>
+        <Section1/>
     </div>
   )
 }
