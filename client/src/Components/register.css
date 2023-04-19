@@ -1,0 +1,116 @@
+
+
+.SIgnUpHeroSec {
+  background-color: #F2D9B2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  
+}
+
+.Signup_photo{
+  width: 51px;
+}
+
+.signupboxtext {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.payby_circle {
+  margin-right: 10px;
+}
+
+.paybycredit_text {
+  font-size: 0.8rem;
+}
+
+.agreed_cond {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.agreed_button {
+  margin-right: 10px;
+}
+
+.continue_but {
+  margin-top: 10px;
+  background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+  margin-bottom: 20px;
+}
+
+.continue_but:hover {
+	background-color: white;
+	color: black;
+	transform: scale(1.2);
+	transition: 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  .SIgnUpHeroSec {
+    margin-top: 20px;
+  }
+
+  .signUpBox {
+    padding: 10px;
+    align-items: left;
+  }
+
+  .reg_name{
+    text-align: left;
+  }
+
+  .signupboxtext {
+    font-size: 1.5rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"] {
+    font-size: 0.8rem;
+  }
+
+  .paybycredit_text,
+  .agreed_cond {
+    font-size: 0.6rem;
+  }
+
+  .continue_but {
+    font-size: 0.8rem;
+  }
+}

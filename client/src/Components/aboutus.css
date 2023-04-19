@@ -1,0 +1,22 @@
+.aboutus{
+    background-color: #F2D9B2;
+}
+
+.about_sec1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 110%;
+}
+
+.sec1_image{
+    padding-right: 10%;
+    padding-top: 2%;
+    width: 500px;
+}

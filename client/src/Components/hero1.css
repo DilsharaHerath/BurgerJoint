@@ -1,0 +1,59 @@
+.hero {
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/wallpaper.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.content {
+	position: absolute;
+	padding-top: 100px;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+}
+
+.burger{
+	font-size: 500%;
+	padding-left: 5%;
+}
+
+.joint {
+	padding-left: 5%;
+	font-size: 500%;
+	color: red;
+}
+
+.aboutpage{
+	color: white;
+	padding-right: 60%;
+	padding-left: 5%;
+}
+
+h1 {
+	color: white;
+	font-size: 21px;
+	text-align: left;
+	line-height: 5px;
+	padding-bottom: 10px;
+}
+
+.btn_hero {
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+
+
+.btn_hero:hover {
+	background-color: white;
+	color: black;
+	transform: scale(1.2);
+	transition: 1s;
+}

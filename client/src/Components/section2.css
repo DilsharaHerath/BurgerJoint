@@ -1,0 +1,45 @@
+.section_2{
+    background-color: #F2D9B2;
+    padding-top: 40px;
+    padding-bottom: -100px;
+    height: 700px;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+}
+
+.s2_flex{
+    display: flex;
+    background-color: #5E3B3B;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    margin: auto;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.sec2_image{
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.s2_flex_1{
+    margin: 10px;
+    padding: 50px;
+}
+
+.s2_flex_2{
+    margin: 10px;
+    padding: 50px;
+}
+
+.s2_flex_3{
+    margin: 10px;
+    padding: 50px;
+}
+
+.s2_flex_4{
+    margin: 10px;
+    padding: 50px;
+}
